@@ -1,5 +1,4 @@
 var app = require('express')();
-
 var express = require('express');
 var path = require('path');
 var http = require('http').Server(app);
@@ -60,4 +59,5 @@ app.get('/', function (req, res) {
 
 http.listen(8000, function () {
   console.log('listening on *:8000');
+
 });
